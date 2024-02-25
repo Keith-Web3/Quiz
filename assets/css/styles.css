@@ -30,11 +30,7 @@ button:hover {
   background-color: #8570a5;
 }
 
-.choices button {
-  display: block;
-}
-
-input[type="text"] {
+input[type='text'] {
   font-size: 100%;
 }
 
@@ -85,4 +81,18 @@ li:nth-child(odd) {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+/* .options {
+  list-style-type: lower-alpha;
+} */
+.choices {
+  list-style-type: lower-alpha;
+}
+.choices li {
+  cursor: pointer;
+  padding: 0.3em;
+  margin-bottom: 1em;
+}
+.choices li:hover {
+  background-color: rgb(194, 179, 216);
 }
