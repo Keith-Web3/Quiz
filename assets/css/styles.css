@@ -92,6 +92,7 @@ li:nth-child(odd) {
   cursor: pointer;
   padding: 0.3em;
   margin-bottom: 1em;
+  list-style: lower-alpha;
 }
 .choices li:hover {
   background-color: rgb(194, 179, 216);
